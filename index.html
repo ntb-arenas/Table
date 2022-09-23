@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 700px;
+        text-align: center;
+        margin: auto;
+      }
+
+      .table-title {
+        background-color: rgb(104, 255, 104);
+        font-size: 1.5rem;
+      }
+
+      th {
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: rgb(234, 234, 234);
+      }
+
+      th,
+      td {
+        border: 1px solid #000;
+      }
+
+      img {
+        width: 100px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th class="table-title" colspan="3">Agenda</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th>Data</th>
+        <th>Artista</th>
+      </tr>
+      <tr>
+        <td>
+          <img src="/img/artic-monkeys.jpg" alt="" />
+        </td>
+        <td>23 Set.</td>
+        <td>Artic Monkeys</td>
+      </tr>
+      <tr>
+        <td><img src="/img/sam-smith.jpeg" alt="" /></td>
+        <td>24 Set.</td>
+        <td>Sam Smith</td>
+      </tr>
+      <tr>
+        <td><img src="/img/aerosmith.jpg" alt="" /></td>
+        <td>25 Set.</td>
+        <td>Aerosmith</td>
+      </tr>
+      <tr>
+        <td><img src="/img/post-malone.jpg" alt="" /></td>
+        <td>26 Set.</td>
+        <td>Post Malone</td>
+      </tr>
+    </table>
+  </body>
+</html>
